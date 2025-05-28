@@ -1,0 +1,28 @@
+main{
+    margin-top: 10vh;
+}
+div{
+     margin: 0px auto;
+     
+}
+.pan{
+    width: 700px;
+    height: 100px;
+    background-color: rgb(249, 183, 61);
+}
+.panArriba{
+    border-radius: 100px  100px 0 0;
+}
+.panAbajo{
+    border-radius: 0 0 100px  100px;
+}
+.salchicha{
+    width: 850px;
+    height: 100px;
+    border-radius: 60px;
+    background-color:rgb(244, 122, 144);
+    border-top: 5px solid rgb(255, 187, 200);
+}
+.sombra{
+    border-bottom: 20px solid rgba(0, 0, 0, 0.181);
+}
