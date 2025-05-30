@@ -1,0 +1,31 @@
+.contenedor{
+    position: relative;
+    background-color: orange;
+    width: 300px;
+    padding: 10px;
+    /* height: 300px; */
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: dotted 2px black;
+    margin: 30px;
+    background-color: lightblue;
+    /* position: absolute;
+    top: 5px;
+    right: 25px;
+    position: fixed;
+    position:sticky; */
+}
+.caja_titulo{
+    margin-bottom: 10px;
+    color:red;
+}
+.caja_descripcion{
+    font-size: large;
+}
+.caja_boton--enviar{
+    background-color: purple;
+    color: white;
+}
