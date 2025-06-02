@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.wrap-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 30% 1fr;
+    grid-template-rows: 80px 90px;
+    gap: 10px;
+}
+.item{
+    padding: 20px;
+    background-color: rgb(203, 203, 203);
+}
+.box{
+    padding: 30px;
+    background-color: rgb(214, 130, 130);
+    text-align: center;
+}
