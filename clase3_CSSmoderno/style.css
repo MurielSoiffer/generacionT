@@ -15,7 +15,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: 200px 30% 1fr;
-    grid-template-rows: 80px 90px;
+    grid-auto-rows: minmax(100px, auto);
     gap: 10px;
 }
 .item{

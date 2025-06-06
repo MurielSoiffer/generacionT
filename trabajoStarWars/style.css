@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Alumni Sans SC", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.416) url("img/fondo_main.jpeg");
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.star-wars{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.star-wars img{
+    filter: drop-shadow(30px 10px 4px #000000);
+}
+article img{
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+}
+/* ------------------------IMPERIO---------------------------- */
+.imperio{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.092) url("img/imperio_fondo.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imperio h2{
+    font-size: 90px;
+    text-shadow: 10px 10px 15px #ff0000;
+    margin: 0;
+}
+.imperio article{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.742);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.imperio article p{
+    font-size: 30px;
+}
+.imperio_apoyo{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 0 20px;
+    text-align: center;
+}
+.imperio_apoyo article{
+    margin:0 auto;
+}
+.imperio_apoyo img{
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+}
+.imperio_apoyo h3{
+  grid-column: 1 / 3;
+  font-size: 50px;
+  margin: 10px;
+  text-shadow: 5px 5px 15px #000000;
+}
+/* ------------------------Rebeldes---------------------------- */
+.rebeldes{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.538) url("img/rebeldes_fondos.jpg");
+    background-blend-mode: darken;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rebeldes h2{
+    font-size: 90px;
+    text-shadow: 10px 10px 15px #51ff00;
+    margin: 0;
+}
+.rebeldes article{
+    background-color: rgba(0, 0, 0, 0.742);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5%;
+}
+.rebeldes article p{
+    font-size: 30px;
+}
+.rebeldes_apoyo, .droides{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 0 20px;
+    text-align: center;
+}
+.rebeldes_apoyo h3, .droides h3{
+  grid-column: 1 / 4;
+  font-size: 50px;
+  margin: 10px;
+  text-shadow: 5px 5px 15px #000000;
+}
+.rebeldes_apoyo img{
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+}
+.droides img{
+    width: auto;
+    max-height: 300px;
+}
+/* ------------------------footer---------------------------- */
+footer{
+    height: 300px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+footer p{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.footer_texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+footer img{
+    height: 200px;
+    z-index: 1;
+}
