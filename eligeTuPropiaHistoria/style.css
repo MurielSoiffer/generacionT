@@ -1,0 +1,46 @@
+body{
+    background-image: url(img/fondo-madera.jpg);
+}
+.pagina{
+    background-image: url(img/papel-fondo.avif);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-color: bisque; */
+    margin: auto;
+    width: 600px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.texto{
+    width: 90%;
+}
+img{
+    width: 90%;
+    height: 50%;
+     object-fit: cover; 
+}
+.links{
+    position: absolute;
+    bottom: 4%;
+    width: 90%;
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.links a{
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 213, 96);
+    border-radius: 5px;
+}
+.links a:hover{
+    box-shadow: none;
+    transform: translate(3px, 3px);
+    background-color: rgb(211, 176, 81);
+    transition: 0.3s;
+}
