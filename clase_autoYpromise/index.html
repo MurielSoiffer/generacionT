@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        #pista{
+            position: relative;
+            background-color: gray;
+            width: 1200px;
+            height: 300px;
+        }
+        .pista-lineas {
+            position: absolute;
+            top: 0;
+            left: 15%;
+            width: 10px;
+            height: 100%;
+            background-image:  repeating-linear-gradient(
+            to bottom,
+            white 0,
+            white 20px,
+            transparent 20px,
+            transparent 40px
+        );
+            transform:  translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="pista">
+        <div class="pista-lineas"></div>
+        <img class="auto1" src="img/autorojo.png" style="position: absolute; top: 40px; left: 0; width: 100px;" alt="">
+        <img class="auto2" src="img/autoazul.png" style="position: absolute; top: 120px; left: 0; width: 100px;" alt="">
+    </div>
+    <!-------- Esto es parte del script de promise ----------->
+    <button id="miBoton">Hola</button>
+</body>
+</html>
