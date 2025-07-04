@@ -59,7 +59,6 @@ console.log(res)
 function dispenserGaseosa(un, gas){
     const gaseosasEnStock = {}
     for (let i = 0; i < gas.length; i++) {
-    // Asignar el número de unidades a cada gaseosa en el objeto
     gaseosasEnStock[gas[i]] = un[i] || 0;
     }
     return gaseosasEnStock;
