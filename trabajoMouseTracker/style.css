@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/fondo.jpeg");
+    height: 100vh;
+    cursor: none;
+}
+.raton{
+    position: fixed;
+    height: 300px;
+    width: auto;
+    pointer-events: none;
+    transition: top 0.2s ease-out;
+    transition: left 0.2s ease-out; 
+}
