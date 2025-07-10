@@ -29,7 +29,7 @@ const words = [
 ];
 
 let palabraAleatoria = "";
-let time = 1;
+let time = 10;
 let score = 0;
 
 
@@ -64,7 +64,10 @@ function gameOver(){
 
     main.remove();
 
-    let titulo = document.createElement('h2');
+    let typer = document.createElement('h2');
+    typer.textContent = '⌨ Typer-3000';
+    contenedorGO.appendChild(typer);
+    let titulo = document.createElement('h3');
     titulo.textContent = '¡Te quedaste sin tiempo!';
     contenedorGO.appendChild(titulo);
 
